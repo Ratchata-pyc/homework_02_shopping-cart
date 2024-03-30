@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(242, 243, 243);
+}
+
+/* header */
+header {
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+header nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header .container {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+header .container>div {
+  margin-top: 8px;
+}
+
+header .logo {
+  height: 25px;
+}
+
+header .left {
+  /* background-color: rgb(151, 151, 230); */
+  flex-grow: 1;
+  display: flex;
+}
+
+header .left p {
+  display: flex;
+  margin: 0px 5px 0px 10px;
+}
+
+header .logo {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: aquamarine; */
+  width: 100px;
+}
+
+header .logo p {
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+
+header .center {
+  /* background-color: blueviolet; */
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+header .center nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+header .right {
+  /* background-color: rgb(54, 167, 17); */
+  flex-grow: 1;
+  display: flex;
+}
+
+header .right div {
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+  gap: 20px;
+  border-right: 1px solid #ddd;
+  height: 22px;
+  /* background-color: azure; */
+  position: relative;
+  /* right: 5px; */
+}
+
+header .right nav {
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+
+header .right img {
+  height: 20px;
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+
+header .right .noti {
+  position: absolute;
+  font-size: 8px;
+  top: -4px;
+  right: 73px;
+  background-color: red;
+  border-radius: 100%;
+  height: 11px;
+  width: 11px;
+  text-align: center;
+  color: white;
+}
+
+header .right .signup {
+  display: flex;
+  flex-grow: 1;
+  /* background-color: blueviolet; */
+  position: relative;
+  left: 10px;
+}
+
+section {
+  /* background-color: aqua; */
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+section .mycart {
+  /* background-color: red; */
+  height: 80px;
+}
+
+section .mycart {
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  position: relative;
+}
+
+section .mycart h1 {
+  position: relative;
+  bottom: 5px;
+}
+
+/* shop */
+section .shop {
+  width: 95%;
+  height: 700px;
+  /* background-color: aqua; */
+  display: flex;
+  gap: 40px;
+}
+
+section .shop .left {
+  width: 50%;
+  gap: 5px;
+
+  /* background-color: rgb(173, 165, 232); */
+}
+
+section .shop .item01 {
+  height: 150px;
+  background-color: white;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.trash {
+  margin: 0px 20px 0 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border: 2px solid #80ffd4;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+section .shop .icon {
+  margin-left: 2px;
+  display: flex;
+  width: 20%;
+  height: 30px;
+  justify-content: center;
+}
+
+section .shop .product {
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+  /* background-color: aquamarine; */
+  height: 110px;
+  border-radius: 20px;
+}
+
+section .shop .spec {
+  width: 50%;
+  /* background-color: bisque; */
+  margin-left: 20xp;
+}
+
+section .shop .spec select {
+  display: flex;
+  position: relative;
+  /* left: 70px; */
+}
+
+section .shop .spec form,
+p {
+  margin-left: 10px;
+  /* background-color: red; */
+}
+
+
+section .shop .spec form {
+  /* background-color: red; */
+}
+
+.level-rs {
+  /* background-color: antiquewhite; */
+  display: flex;
+  gap: 5px;
+}
+
+.level-rs2 {
+  /* background-color: antiquewhite; */
+  display: flex;
+  gap: 5px;
+}
+
+.level-r {
+  display: flex;
+  gap: 5px;
+  /* height: 40px; */
+}
+
+.level-rs input {
+  display: flex;
+}
+
+.level-rs2 input {
+  display: flex;
+}
+
+section .shop .item02 {
+  height: 150px;
+  background-color: white;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.shop .product img {
+  height: 100%;
+  width: 100%;
+}
+
+
+section .shop .right {
+  width: 50%;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+
+}
+
+section.shop .right div {
+  margin-top: 20px;
+}
+
+section .shop .total {
+  display: flex;
+}
+
+section .shop .total p {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #b8b7b7;
+}
+
+section .shop .total .thb {
+  justify-content: flex-end;
+  margin-right: 20px;
+  color: #b8b7b7;
+}
+
+section .shop .promocode {
+  height: 40px;
+  display: flex;
+  height: 30px;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+section .shop .promocode .input1 {
+  display: flex;
+  width: 200px;
+  border-radius: 5px;
+  border-color: #ddd;
+  color: #ddd;
+}
+
+section .shop .promocode .apply {
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: white;
+  border-color: #80ffd4;
+  color: #80ffd4;
+}
+
+section .shop .top {
+  border-bottom: 1px solid #ddd;
+}
+
+section .shop .bottom {
+  margin-top: 10px;
+}
+
+section .shop .bottom div {
+  display: flex;
+  /* background-color: azure; */
+  justify-content: space-between;
+}
+
+section .shop .bottom h2 {
+  /* background-color: beige; */
+  align-items: flex-end;
+  margin-right: 20px;
+  color: #80ffd4;
+}
+
+section .shop .bottom section .shop .bottom input {
+  margin-top: 20px;
+  display: flex;
+  width: 90%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+section .shop .bottom p {
+  display: flex;
+  align-items: flex-end;
+}
+
+.log-out {
+  /* background-color: red; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+.checkout {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #80ffd4;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: none;
+}
